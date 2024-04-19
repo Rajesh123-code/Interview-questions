@@ -15,6 +15,26 @@ UNIX is an older operating system that served as the inspiration for Linux. Linu
 4.	What is the difference between a process and a thread in Linux?
 A process is an instance of a program that is running on a system, while a thread is a lightweight process that shares the resources of a process.
 
+First, lets understand about what a programme is 
+It is a programme executable file, it contains a code or a set of process instructions that is 
+stored as a file on a disk. When the code in programme is loaded into memory and executed by the
+processor, it becomes a process.
+
+An active process includes resources that programme needs to run, these resources are managed by OS
+processor regsiters, programme counters, memory pages assigned for its heap and stack etc.,
+
+Each process has its own memory address space, one process connot corrupt the memory space of 
+another process
+
+_________
+
+A thread is a unit of execution within the process, a process has atleast one thread it is called
+as main thread, each thread has its own stack, earlier we mentioned rocessor regsiters,
+programme counters, memory pages. It is more accurate to say that those things belong to a thread
+
+It is possible to communicate between threads using shared memory space
+However one mibehaving thread can bring entire process down
+
 5.	What is the difference between a hard link and a soft link in Linux?
 A hard link is a link to a file that points to the same inode as the original file, while a soft link (also known as a symbolic link) is a link to a file that points to the file's path.
 
