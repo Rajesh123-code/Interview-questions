@@ -1,12 +1,7 @@
-Tell about shell script special characters
-
-$@ - Prints all variables in a file
-$# - Prints count of variables in a file
-$0 - Prints shell script file name
-$PWD - Prints current working directory
-$HOME - Prints home directory
-$USER - Prints who running the current shell script
-$HOSTNAME - Prints hostname
-$$ - Prints process ID created for current shell script
-$! - Prints process ID of last background command
+1. What is CRONTAB ?
+crontab is a way of scheduling shell scripts inside linux servers
+2. How would you know the disk usage using the shell script commands?
+df -hT
+df -hT | grep xfs 
+3. 
 
