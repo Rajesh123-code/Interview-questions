@@ -1,6 +1,6 @@
 Tell about shell script special characters
 
-$@ - Prints all variables in a file 
+$@ - Prints all variables in a file
 $# - Prints count of variables in a file
 $0 - Prints shell script file name
 $PWD - Prints current working directory
